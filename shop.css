@@ -1,0 +1,85 @@
+
+/* categories*/
+
+.shop{
+    width: 100%;
+    height: 90vh;
+   /* background-image: url(image/homebg.jpg);*/
+   background-color: white;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin-left: 50px;
+    text-align: center;
+
+}
+.flower img{
+    border: 4px;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 400px;
+    width: 250px;
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+.headband img{
+    border:5px;
+    border-radius: 10px;
+    margin-right: 50px;
+    height: 400px;
+    width: 250px;
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+.bag img{
+    border:5px;
+    border-radius: 20px;
+    margin-right: 50px;
+    height: 450px;
+    width: 300px;
+    margin-top: -50px;
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+.keychain img{
+    border:5px;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-top: 30px;
+    height: 350px;
+    width: 250px;
+    transition: transform .3s ease;
+    cursor:pointer;
+}
+.flower img:hover,.headband img:hover,.bag img:hover,.keychain img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+.flower, .headband, .bag, .keychain{
+    cursor: pointer;
+}
+.f{
+    margin-top: 20px;
+    margin-left: -30px; 
+}
+.h{
+    margin-top: 20px;
+    margin-left: -70px;
+}
+.k{
+    margin-top: 40px;
+    margin-left: -80px;
+}
+.b{
+    margin-left: -100px;
+    margin-top: 20px;
+}
+
+
+
+/*end category*/
